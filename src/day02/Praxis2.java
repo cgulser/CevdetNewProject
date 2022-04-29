@@ -22,5 +22,6 @@ public class Praxis2 {
         int a=deger.get();
         System.out.println(a+10);
 
+
     }
 }
