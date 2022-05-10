@@ -15,7 +15,7 @@ public class C02_Lambda06 {
         System.out.println("\nTASK 01 --> haluk.txt dosyasini okuyunuz -->  ");
 
         Path haluk= Path.of("src/day06_Lambda/Haluk.txt");//path haluk obj atandi
-        Stream<String> akıs=Files.lines(haluk);//haluk.çtxt dataları akıs stream'e atandı
+        Stream<String> akıs=Files.lines(haluk);//haluk.txt dataları akıs stream'e atandı
 
         //1. yol...
         Files.lines(haluk).//path'deki dosyanın dataları akısa alındı
